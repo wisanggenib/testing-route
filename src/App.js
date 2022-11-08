@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import React, {Suspense} from "react";
+// // import OtherComponent from './aa'
+// const OtherComponent = React.lazy(() => import('./aa'));
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// const isLogin = true;
 
-export default App;
+// export default function App() {
+//   // if(!isLogin){
+//   //   return(<div>Elll</div>) //true
+//   // }
+//   return (
+//     <div>
+//       hello world
+//        {/* <Suspense fallback={<div>Loading...</div>}> */}
+//         {/* <OtherComponent /> */}
+//       {/* </Suspense> */}
+//       Hello
+//     </div>
+//   );
+// }
