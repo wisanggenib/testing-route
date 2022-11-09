@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npx babel app.js --out-file app.min.js --presets minify --watch",
+    "build": "npx babel src/index.js --out-file app.min.js --presets minify --watch",
+    "serve": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "webpack-cli": "^4.10.0"
   }
 }
