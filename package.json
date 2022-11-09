@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "npx babel app.js --out-file app.min.js --presets minify --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

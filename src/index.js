@@ -12,6 +12,8 @@ import { HashRouter } from "react-router-dom";
 const Contact = lazy(() => import('./contact'));
 
 
+console.log(process.env)
+
 
 
 const router = createBrowserRouter([
